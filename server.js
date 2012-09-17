@@ -1,5 +1,6 @@
-var port = 9001;
+var port = 8081;
 var connect = require('connect');
 connect()
 .use(connect.static(__dirname + '/'))
 .listen(port);
+console.log("server is started");
